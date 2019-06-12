@@ -1,0 +1,128 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content, .desc {
+    background-color: #428ac2;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .padded {
+    padding-right:25%
+  }
+
+  #non-padded{
+    padding: right 0%;
+    margin:0px;
+    display:block;
+  }
+
+  div.c {
+    font-size: 1.5em;
+  }
+
+  div.colored{
+    color: darkblue;
+  }
+
+  body {
+    background-color: #42C2B4;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 30%;
+    height: 10%;
+    margin: auto;
+  }
+
+  img {
+    display: inline-block;
+  }
+  .photo-right {
+    float: right;
+    margin-right: 5%;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+
+  .photo-left {
+    margin-left: 5%;
+  }
+
+  .ex1 {
+    margin-left: 34%;
+    margin-right: 34%;
+    
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+    right: 5%; 
+  }
+
+  .other {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+    left: 5%; 
+  }
